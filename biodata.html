@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Biodata</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Form Biodata</h1>
+
+<div class="card">
+    <form id="biodataForm">
+        <!-- ISI FORM KAMU TETAP DI SINI -->
+        <label>Nama Lengkap</label>
+        <input type="text" id="nama">
+
+        <label>Kelas</label>
+        <input type="text" id="kelas">
+
+        <label>Alamat</label>
+        <textarea id="alamat"></textarea>
+
+        <label>Tanggal Lahir</label>
+        <input type="date" id="lahir">
+
+        <button type="button" onclick="simpan()">Simpan</button>
+    </form>
+
+    <div id="hasil"></div>
+
+    <a href="index.html" class="back">⬅ Kembali ke Menu</a>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

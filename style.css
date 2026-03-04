@@ -1,0 +1,135 @@
+/* ==== GENERAL ==== */
+body {
+    background: linear-gradient(135deg, #ffe5f8, #d8e8ff);
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* ==== CONTAINER ==== */
+.container {
+    margin-top: 70px;
+}
+
+/* ==== TITLE ==== */
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #b5179e;
+    margin-bottom: 10px;
+}
+
+.desc {
+    font-size: 18px;
+    color: #555;
+}
+
+/* ==== MENU BOX ==== */
+.menu-box {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+/* ==== BUTTON ==== */
+.btn {
+    background: #ffffff;
+    padding: 15px 40px;
+    width: 250px;
+    text-decoration: none;
+    color: #7b2cbf;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid #d0a3ff;
+    transition: 0.25s;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.btn:hover {
+    background: #d8b4ff;
+    color: white;
+    transform: scale(1.05);
+}
+
+/* ===== FORM BIODATA CANTIK UNGU ===== */
+
+.card {
+    background: #ffffff;
+    width: 330px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    text-align: left;
+}
+
+h1 {
+    text-align: center;
+    color: #b5179e;
+    margin-top: 20px;
+}
+
+.card label {
+    font-weight: 600;
+    color: #7b2cbf;
+}
+
+.card input,
+.card textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    border: 1px solid #c7b4e8;
+    font-size: 14px;
+}
+
+.card button {
+    width: 100%;
+    padding: 12px;
+    background: #9d4edd;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background: #7b2cbf;
+    transform: scale(1.03);
+}
+
+/* ===== BOX HASIL ===== */
+.result-box {
+    margin-top: 25px;
+    background: #f7ecff;
+    padding: 15px;
+    border-radius: 12px;
+    text-align: left;
+    border: 1px solid #e3c8ff;
+}
+
+/* ===== TOMBOL KEMBALI ===== */
+.back {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 15px;
+    text-decoration: none;
+    background: #e0b3ff;
+    color: #4b0082;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.back:hover {
+    background: #c891ff;
+}
